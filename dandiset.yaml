@@ -12,8 +12,6 @@ assetsSummary:
   approach:
   - name: electrophysiological approach
     schemaKey: ApproachType
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -29,7 +27,7 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 48351381101
+  numberOfBytes: 56763238600
   numberOfFiles: 6
   numberOfSubjects: 6
   schemaKey: AssetsSummary
@@ -43,9 +41,6 @@ assetsSummary:
   - ProcessingModule
   - Units
   - ElectricalSeries
-  - ImagingPlane
-  - PlaneSegmentation
-  - OpticalChannel
 citation: Peene, Carter (2026) OpenScope Cross-Species V2 - Ophys (Version draft)
   [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001709/draft
 contributor:
