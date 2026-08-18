@@ -21,9 +21,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 34133038701
-  numberOfFiles: 22
-  numberOfSubjects: 8
+  numberOfBytes: 35223427861
+  numberOfFiles: 23
+  numberOfSubjects: 9
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -34,8 +34,8 @@ assetsSummary:
   - PlaneSegmentation
   - OpticalChannel
   - ProcessingModule
-citation: Peene, Carter (2026) OpenScope Cross-Species V2 - Ophys (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001709/draft
+citation: Peene, Carter (2026) Allen Institute OpenScope - Cross-Species V2 (Ophys)
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001709/draft
 contributor:
 - affiliation: []
   email: rcpeene@gmail.com
@@ -49,9 +49,11 @@ description: Dandiset for Allen Institute's OpenScope Cross-Species V2 project
 ethicsApproval: []
 id: DANDI:001709/draft
 identifier: DANDI:001709
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001709/versions/draft/assets/
-name: OpenScope Cross-Species V2 - Ophys
+name: Allen Institute OpenScope - Cross-Species V2 (Ophys)
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
