@@ -8,6 +8,8 @@ access:
 - embargoedUntil: '2028-02-02'
   schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
+acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
+  encouragement, and support.
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -34,21 +36,338 @@ assetsSummary:
   - PlaneSegmentation
   - OpticalChannel
   - ProcessingModule
-citation: Peene, Carter (2026) Allen Institute OpenScope - Cross-Species V2 (Ophys)
-  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001709/draft
+citation: Amaya, Avalon; Belski, Hannah; Bussi, Ivana; Durand, Severine; Gillis, Ryan;
+  Johnson, Tye; Kenney, Jaimie; Lecoq, Jérôme A.; Lennon-Jones, Casey; Loeffler, Henry;
+  Naidoo, Robyn; Ouellette, Ben; Park, Jimin; Peene, R. Carter; Stearns, Alex; Swapp,
+  Jackie; Tom, Madeline; Weber, Julie; Wilkes, Josh; Williford, Allison; Cassity,
+  Mary Elizabeth; Corbo, Julien; Rowley, Declan; Ssedigh-Sarvestani, Madineh; Caldjeon,
+  Shiella (2026) Allen Institute OpenScope - Cross-Species V2 (Ophys) (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001709/draft
 contributor:
-- affiliation: []
-  email: rcpeene@gmail.com
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  identifier: 0000-0003-2274-2892
   includeInCitation: true
-  name: Peene, Carter
+  name: Amaya, Avalon
   roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: hannah.belski@alleninstitute.org
+  identifier: 0009-0001-5422-5964
+  includeInCitation: true
+  name: Belski, Hannah
+  roleName:
+  - dcite:Author
+  - dcite:ProjectAdministration
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: ivana.bussi@alleninstitute.org
+  identifier: 0000-0003-4721-763X
+  includeInCitation: true
+  name: Bussi, Ivana
+  roleName:
+  - dcite:Author
+  - dcite:FundingAcquisition
+  - dcite:ProjectAdministration
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: severined@alleninstitute.org
+  identifier: 0000-0001-7788-0200
+  includeInCitation: true
+  name: Durand, Severine
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: ryan.gillis@alleninstitute.org
+  identifier: 0009-0000-1879-6519
+  includeInCitation: true
+  name: Gillis, Ryan
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  identifier: 0009-0006-7239-7571
+  includeInCitation: true
+  name: Johnson, Tye
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  identifier: 0009-0003-5308-2783
+  includeInCitation: true
+  name: Kenney, Jaimie
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: jeromel@alleninstitute.org
+  identifier: 0000-0002-0131-0938
+  includeInCitation: true
+  name: Lecoq, Jérôme A.
+  roleName:
+  - dcite:Author
+  - dcite:FundingAcquisition
+  - dcite:ProjectAdministration
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: casey.lennon-jones@alleninstitute.org
+  identifier: 0009-0008-2833-7509
+  includeInCitation: true
+  name: Lennon-Jones, Casey
+  roleName:
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Loeffler, Henry
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  identifier: 0009-0004-0996-8808
+  includeInCitation: true
+  name: Naidoo, Robyn
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Ouellette, Ben
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Park, Jimin
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Validation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: carter.peene@alleninstitute.org
+  identifier: 0009-0000-6660-2264
+  includeInCitation: true
+  name: Peene, R. Carter
+  roleName:
+  - dcite:Author
+  - dcite:Software
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Stearns, Alex
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  identifier: 0009-0008-4965-6242
+  includeInCitation: true
+  name: Swapp, Jackie
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Tom, Madeline
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  - dcite:Resources
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  identifier: 0009-0002-1060-3828
+  includeInCitation: true
+  name: Weber, Julie
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Wilkes, Josh
+  roleName:
+  - dcite:Author
+  - dcite:Investigation
+  schemaKey: Person
+- affiliation:
+  - name: Allen Institute for Neural Dynamics
+    schemaKey: Affiliation
+  email: aliw@alleninstitute.org
+  identifier: 0009-0000-7282-7515
+  includeInCitation: true
+  name: Williford, Allison
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05bnh6r87
+    name: Cornell University
+    schemaKey: Affiliation
+  identifier: 0009-0004-4326-9904
+  includeInCitation: true
+  name: Cassity, Mary Elizabeth
+  roleName:
+  - dcite:Author
+  - dcite:FormalAnalysis
+  - dcite:Software
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05vt9qd57
+    name: Rutgers University Newark
+    schemaKey: Affiliation
+  identifier: 0000-0002-1251-0572
+  includeInCitation: true
+  name: Corbo, Julien
+  roleName:
+  - dcite:Author
+  - dcite:DataCurator
+  - dcite:Software
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/046rm7j60
+    name: UCLA - Fuster Lab
+    schemaKey: Affiliation
+  email: decrow3@gmail.com
+  identifier: 0000-0002-3529-4411
+  includeInCitation: true
+  name: Rowley, Declan
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:Methodology
+  - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05bnh6r87
+    name: Cornell University
+    schemaKey: Affiliation
+  - identifier: https://ror.org/006w34k90
+    name: HHMI
+    schemaKey: Affiliation
+  email: msarvestani@cornell.edu
+  identifier: 0000-0002-8735-2927
+  includeInCitation: true
+  name: Ssedigh-Sarvestani, Madineh
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:Methodology
+  - dcite:ContactPerson
+  schemaKey: Person
+- includeInCitation: true
+  name: Caldjeon, Shiella
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  - dcite:Investigation
+  schemaKey: Person
+- awardNumber: 1 U24 NS 113646-05
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health (NIH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-02-02T22:43:01.881354+00:00'
-description: Dandiset for Allen Institute's OpenScope Cross-Species V2 project
-ethicsApproval: []
+description: The mouse has become a major model for studies of the visual system,
+  creating a need for principles of areal delineation that can be compared across
+  species. In many well-studied mammals, V1 is bordered by a single second visual
+  area, V2, whereas the cortex immediately surrounding mouse V1 is commonly parcellated
+  into roughly eight higher-order visual areas (HVAs), with boundaries defined in
+  part by reversals in the progression of the visual field. However, work in other
+  species has shown that such reversals can occur within a single visual area when
+  retinotopic mapping is complex. This raises the possibility that some conventionally
+  defined mouse HVAs may instead be subdivisions of a single complex V2. We use simulations
+  to show that complex retinotopy within a single visual area can generate multiple
+  apparent areal borders beyond mouse V1, and show that visual-field position contributes
+  to reported functional differences among HVAs. We also release a large-scale Allen
+  Institute OpenScope dataset comprising electrophysiological and two-photon recordings
+  across V1. As an initial application of this resource, we examined response properties
+  associated with visual cortical hierarchy and found that they clearly distinguished
+  V1 from higher visual cortex, while variation among individual HVAs did not significantly
+  exceed variation across sampled locations within V1. Together, these results motivate
+  the unified-V2 hypothesis as an alternative model of mouse higher visual cortex
+  while emphasizing that areal boundaries are most strongly supported when independent
+  topographic, functional, architectonic, and connectional features exhibit reproducible,
+  spatially coincident transitions. The OpenScope dataset provides a resource for
+  independent tests of this and alternative models of mouse visual cortical organization.
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: Allen Institute Institutional Animal Care and Use Committee (IACUC),
+    protocol 2117
+  schemaKey: EthicsApproval
 id: DANDI:001709/draft
 identifier: DANDI:001709
+keywords:
+- openscope
+- ophys
+- mesoscope
+- 2-photon
+- fluorescence
+- calcium imaging
+- mouse
+- textures
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -58,6 +377,8 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
+studyTarget:
+- mouse
 url: https://dandiarchive.org/dandiset/001709/draft
 version: draft
 wasGeneratedBy: []
