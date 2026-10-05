@@ -5,9 +5,9 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
 about: []
 access:
-- embargoedUntil: '2028-02-02'
+- embargoedUntil: '2026-10-05'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
   encouragement, and support.
 assetsSummary:
